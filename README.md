@@ -4,8 +4,6 @@
 
 Name
 Choose a self-explaining name for your project.
-1. Project's Title
-This is the name of the project. It describes the whole project in one sentence, and helps people understand what the main goal and aim of the project is.
 
 Description
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
