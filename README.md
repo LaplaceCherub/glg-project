@@ -1,4 +1,6 @@
-# glg-project
+# GLG Project
+## *A match made in machine learning heaven: linking every request to the best expert*
+### By Cris Fortes, Ying Hu and Cody McCormack
 
 -------------------------------------
 
