@@ -1,0 +1,32 @@
+#glg_logo {
+    max-width: 50px;
+    max-height: auto;
+}
+
+#global_header {
+    padding-left: 15px;
+}
+
+.page_header {
+    padding-left: 15px;
+}
+
+#home_text {
+    padding: 15px;
+}
+
+.team_image {
+    max-width: 360px;
+}
+
+.form-outline {
+    padding: 50px;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+.btn {
+    margin-top: 10px;
+}
