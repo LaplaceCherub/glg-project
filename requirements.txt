@@ -22,6 +22,7 @@ cython-blis=0.7.7=py310h4e76f89_0
 dataclasses=0.8=pyh6d0b6a4_7
 debugpy=1.5.1=py310he9d5cce_0
 decorator=5.1.1=pypi_0
+en-core-web-sm=3.3.0=pypi_0
 entrypoints=0.4=py310hecd8cb5_0
 executing=0.8.3=pypi_0
 fftw=3.3.9=h9ed2024_1
@@ -73,7 +74,7 @@ pure-eval=0.2.2=pypi_0
 pure_eval=0.2.2=pyhd3eb1b0_0
 py-xgboost=1.5.0=py310hecd8cb5_2
 pycparser=2.21=pyhd3eb1b0_0
-pydantic=1.9.0=py310hca72f7f_1
+pydantic=1.8.2=pypi_0
 pygments=2.11.2=pypi_0
 pyopenssl=22.0.0=pyhd3eb1b0_0
 pyparsing=3.0.9=py310hecd8cb5_0
