@@ -28,6 +28,10 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 -------------------------------------
 
+Illustrative and simplified example: [INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
+
+-------------------------------------
+
 Authors and acknowledgment
 
 -------------------------------------
