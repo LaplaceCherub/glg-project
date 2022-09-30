@@ -24,7 +24,7 @@ Possible libraries: spaCy, The Natural Language Toolkit (NLTK), TensorFlow, Kera
 Step 2: Hierarchical clustering
 Under consideration: decision tree, K-means clustering, Latent Dirichlet allocation (LDA)
 
-Step 3: 
+*Step 3: build a recommendation system to suggest the highest matching expert(s) for each request but that is outside the scope of this project
 
 -------------------------------------
 
