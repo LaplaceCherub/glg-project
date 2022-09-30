@@ -8,8 +8,9 @@ Context: Cris, Ying and Cody are students of FourthBrain's Machine Learning Engi
 
 -------------------------------------
 
-The problem: GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: [INSERT BELOW PICTURE OF PROCESS FLOW]
+The problem: GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
 
+[INSERT BELOW PICTURE OF PROCESS FLOW]
 
 Since GLG receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
 
@@ -28,7 +29,9 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 -------------------------------------
 
-Illustrative and simplified example: [INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
+Illustrative and simplified example: 
+
+[INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
 
 Acronyms: NLP (Natural Language Processing), NER (Named-Entity Recognition), HC (Hierarchical Clustering), 
 DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of this project
@@ -39,7 +42,9 @@ Data
 
 Did exploratory data analysis (EDA) on two datasets from Kaggle:
 
-Annotated Corpus for Named Entity Recognition | Kaggle [INSERT BELOW PICTURE WITH EXAMPLES OF PERFORMED EDA]
+Annotated Corpus for Named Entity Recognition | Kaggle 
+
+[INSERT BELOW PICTURE WITH EXAMPLES OF PERFORMED EDA]
 
 -------------------------------------
 
