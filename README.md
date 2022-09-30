@@ -49,6 +49,14 @@ All the News 2.0 - Components
 
 -------------------------------------
 
+MLE Stack [PLACEDHOLER]
+
+(Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline 
+
+(Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring
+
+-------------------------------------
+
 Authors and acknowledgment
 
 -------------------------------------
