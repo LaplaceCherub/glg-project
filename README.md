@@ -70,9 +70,9 @@ Data and model iteration [PLACEHOLDER]
 
 MLE Stack [PLACEHOLDER]
 
-(Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline 
+[Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
 
-(Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring
+[Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring]
 
 -------------------------------------
 
