@@ -10,6 +10,9 @@ GLG's business largely revolves around matching clients, requesting insights on 
 
 -------------------------------------
 
+Since GLG receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
+
+-------------------------------------
 
 Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
