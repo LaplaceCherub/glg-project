@@ -1,4 +1,4 @@
-<h1 align="center" id="heading">:rocket:GLG Project</h1>
+<h1 align="center" id="heading">:rocket:GLG project</h1>
 <h2 align="center" id="heading">A match made in machine learning heaven: linking every request to the best expert</h2>
 <h3 align="center" id="heading">By Cris Fortes, Ying Hu and Cody McCormack</h3>
 
