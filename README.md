@@ -35,6 +35,20 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 -------------------------------------
 
+Data
+
+Did exploratory data analysis (EDA) on two datasets from Kaggle:
+
+Annotated Corpus for Named Entity Recognition | Kaggle [INSERT BELOW PICTURE WITH EXAMPLES OF PERFORMED EDA]
+
+-------------------------------------
+
+Next step: train our model using this other 2.7-million news articles dataset:
+
+All the News 2.0 - Components
+
+-------------------------------------
+
 Authors and acknowledgment
 
 -------------------------------------
