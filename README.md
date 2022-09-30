@@ -55,6 +55,12 @@ Data and model iteration [PLACEHOLDER]
 
 [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
 
+[PLACEHOLDER:Document limitations of your model / data / ML pipeline]
+
+[PLACEHOLDER: Restructure GitHub into scripts / modules / submodules]
+
+[PLACEHOLDER: Ensure that instructors can easily follow your README.md instructions to deploy your demo locally and in the cloud.]
+
 -------------------------------------
 
 MLE Stack [PLACEHOLDER]
