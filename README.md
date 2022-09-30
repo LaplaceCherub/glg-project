@@ -47,6 +47,12 @@ Next step: train our model using this other 2.7-million news articles dataset:
 
 All the News 2.0 - Components
 
+[PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
+
+-------------------------------------
+
+Data and model iteration [PLACEHOLDER]
+
 -------------------------------------
 
 MLE Stack [PLACEHOLDER]
