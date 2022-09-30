@@ -65,8 +65,8 @@ Future Work [PLACEHOLDER]
 
 -------------------------------------
 
-Authors and acknowledgment
+Authors and acknowledgment [PLACEHOLDER]
 
 -------------------------------------
 
-License
+License [PLACEHOLDER]
