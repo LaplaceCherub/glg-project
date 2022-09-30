@@ -49,7 +49,7 @@ All the News 2.0 - Components
 
 -------------------------------------
 
-MLE Stack [PLACEDHOLER]
+MLE Stack [PLACEHOLDER]
 
 (Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline 
 
