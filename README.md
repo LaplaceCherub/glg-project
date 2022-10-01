@@ -2,7 +2,7 @@
 
 
 ## 🤝 A match made in machine learning heaven: linking every request to the best expert</h2>
-### 🧑‍🤝‍🧑 By Cris Fortes, Ying Hu and Cody McCormack</h3>
+### 🧑‍🤝‍🧑 By Cris Fortes, Ying Hu and Cody McCormack
 
 ---
 
