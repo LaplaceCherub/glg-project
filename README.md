@@ -46,7 +46,7 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 </p>
 </details>
   
-<details><summary>Where we are</summary>
+<details><summary>Where we've been</summary>
 <p>
 
 **Data:**
@@ -60,7 +60,7 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 </p>
 </details>
   
-<details><summary>Where we are going</summary>
+<details><summary>Where we're going</summary>
 <p>
 
 **Next step:** train our model using this other 2.7-million news articles dataset:
