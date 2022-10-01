@@ -1,16 +1,18 @@
 # 🚀 GLG project
 
 
-## 🤝 A match made in machine learning heaven: linking every request to the best expert</h2>
+## 🤝 A match made in machine learning heaven: linking every request to the best expert
 ### 🧑‍🤝‍🧑 By Cris Fortes, Ying Hu and Cody McCormack
 
 ---
 
-**Context**: Cris, Ying and Cody are students of FourthBrain's Machine Learning Engineer course, cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the GLG project.
+**Context:** Cris, Ying and Cody are students of FourthBrain's Machine Learning Engineer course, cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the GLG project.
 
 ---
 
-**The problem**: GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
+**The problem**: 
+
+GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
 
 [INSERT BELOW PICTURE OF PROCESS FLOW]
 
@@ -18,7 +20,8 @@ Since GLG receives 100s of these requests per day, how can they leverage machine
 
 ---
 
-The solution: 
+**The solution**:
+
 Natural Language Processing (NLP), consisting of three steps:
 
 Step 1:  Named-Entity Recognition (NER)
@@ -31,7 +34,7 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 ---
 
-Illustrative and simplified example: 
+**Illustrative and simplified example**: 
 
 [INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
 
@@ -40,7 +43,7 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 ---
 
-Data
+**Data:**
 
 Did exploratory data analysis (EDA) on two datasets from Kaggle:
 
@@ -50,7 +53,7 @@ Annotated Corpus for Named Entity Recognition | Kaggle
 
 ---
 
-Next step: train our model using this other 2.7-million news articles dataset:
+**Next step:** train our model using this other 2.7-million news articles dataset:
 
 All the News 2.0 - Components
 
@@ -58,7 +61,7 @@ All the News 2.0 - Components
 
 ---
 
-Data and model iteration [PLACEHOLDER]
+**Data and model iteration:** [PLACEHOLDER]
 
 [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
 
@@ -70,7 +73,7 @@ Data and model iteration [PLACEHOLDER]
 
 ---
 
-MLE Stack [PLACEHOLDER]
+**MLE Stack:** [PLACEHOLDER]
 
 [Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
 
@@ -78,16 +81,16 @@ MLE Stack [PLACEHOLDER]
 
 ---
 
-Conclusions [PLACEHOLDER]
+**Conclusions:** [PLACEHOLDER]
 
 ---
 
-Future Work [PLACEHOLDER]
+**Future Work:** [PLACEHOLDER]
 
 ---
 
-Authors and acknowledgment [PLACEHOLDER]
+**Authors and acknowledgment:** [PLACEHOLDER]
 
 ---
 
-License [PLACEHOLDER]
+**License:** [PLACEHOLDER]
