@@ -3,13 +3,16 @@
 ## 🤝 A match made in machine learning heaven: linking every request to the best expert
 ### 🧑‍🤝‍🧑 By [Cris Fortes](https://www.linkedin.com/in/crisfortes/), [Ying Hu](https://www.linkedin.com/in/ying-hu-math/) and [Cody McCormack](https://www.linkedin.com/in/codymccormack/)
 
----
+<details><summary>Context</summary>
+<p>
 
-**Context:** Cris, Ying and Cody are students of [FourthBrain's](https://fourthbrain.ai/) [Machine Learning Engineer course](https://fourthbrain.ai/courses/machine-learning-engineer/), cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the GLG project.
+Cris, Ying and Cody are students of [FourthBrain's](https://fourthbrain.ai/) [Machine Learning Engineer course](https://fourthbrain.ai/courses/machine-learning-engineer/), cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the GLG project.
 
----
-
-**The problem**: 
+</p>
+</details>
+  
+<details><summary>The problem</summary>
+<p>
 
 GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
 
@@ -17,10 +20,12 @@ GLG's business largely revolves around matching clients, requesting insights on 
 
 Since GLG receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
 
----
-
-**The solution**:
-
+</p>
+</details>
+  
+<details><summary>The solution</summary>
+<p>
+  
 Natural Language Processing (NLP), consisting of three steps:
 
 - Step 1:  Named-Entity Recognition (NER)
@@ -31,8 +36,6 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 - *Step 3: build a recommendation system to suggest the highest matching expert(s) for each request but that is outside the scope of this project
 
----
-
 **Illustrative and simplified example**: 
 
 [INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
@@ -40,7 +43,11 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 Acronyms: NLP (Natural Language Processing), NER (Named-Entity Recognition), HC (Hierarchical Clustering), 
 DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of this project
 
----
+</p>
+</details>
+  
+<details><summary>Where we are</summary>
+<p>
 
 **Data:**
 
@@ -50,7 +57,11 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 [INSERT BELOW PICTURE WITH EXAMPLES OF PERFORMED EDA]
 
----
+</p>
+</details>
+  
+<details><summary>Where we are going</summary>
+<p>
 
 **Next step:** train our model using this other 2.7-million news articles dataset:
 
@@ -58,9 +69,11 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 - [ ] [PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
 
----
+</p>
+</details> 
 
-**Data and model iteration:** [PLACEHOLDER]
+<details><summary>Data and model iteration</summary>
+<p>
 
 - [ ] [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
 
@@ -70,26 +83,45 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 - [ ] [PLACEHOLDER: Ensure that instructors can easily follow your README.md instructions to deploy your demo locally and in the cloud.]
 
----
-
-**MLE Stack:** [PLACEHOLDER]
+</p>
+</details>
+  
+<details><summary>MLE Stack</summary>
+<p>
 
 - [ ] [Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
 
 - [ ] [Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring]
 
----
+</p>
+</details>
 
-**Conclusions:** [PLACEHOLDER]
+<details><summary>Conclusions</summary>
+<p>
 
----
+</p>
+</details>
 
-**Future Work:** [PLACEHOLDER]
+<details><summary>Future work</summary>
+<p>
 
----
+</p>
+</details>
+  
+<details><summary>MLE Stack</summary>
+<p>
 
-**Authors and acknowledgment:** [PLACEHOLDER]
+</p>
+</details>
 
----
+<details><summary>Authors and acknowledgment</summary>
+<p>
 
-**License:** [PLACEHOLDER]
+</p>
+</details>
+
+<details><summary>License</summary>
+<p>
+
+</p>
+</details>
