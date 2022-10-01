@@ -16,7 +16,7 @@ Cris, Ying and Cody are students of [FourthBrain's](https://fourthbrain.ai/) [Ma
 
 GLG's business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
 
-[INSERT BELOW PICTURE OF PROCESS FLOW]
+<img width="977" alt="image" src="https://user-images.githubusercontent.com/110877253/193379391-7bc81c97-fa89-4553-92d3-d62eaab639e1.png">
 
 Since GLG receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
 
