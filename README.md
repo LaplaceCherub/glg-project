@@ -54,29 +54,29 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 **Next step:** train our model using this other 2.7-million news articles dataset:
 
-- All the News 2.0 - Components
+- [ ] All the News 2.0 - Components
 
-- [PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
+- [ ] [PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
 
 ---
 
 **Data and model iteration:** [PLACEHOLDER]
 
-- [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
+- [ ] [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
 
-- [PLACEHOLDER:Document limitations of your model / data / ML pipeline]
+- [ ] [PLACEHOLDER:Document limitations of your model / data / ML pipeline]
 
-- [PLACEHOLDER: Restructure GitHub into scripts / modules / submodules]
+- [ ] [PLACEHOLDER: Restructure GitHub into scripts / modules / submodules]
 
-- [PLACEHOLDER: Ensure that instructors can easily follow your README.md instructions to deploy your demo locally and in the cloud.]
+- [ ] [PLACEHOLDER: Ensure that instructors can easily follow your README.md instructions to deploy your demo locally and in the cloud.]
 
 ---
 
 **MLE Stack:** [PLACEHOLDER]
 
-- [Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
+- [ ] [Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
 
-- [Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring]
+- [ ] [Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring]
 
 ---
 
