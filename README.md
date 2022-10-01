@@ -24,13 +24,13 @@ Since GLG receives 100s of these requests per day, how can they leverage machine
 
 Natural Language Processing (NLP), consisting of three steps:
 
-Step 1:  Named-Entity Recognition (NER)
+- Step 1:  Named-Entity Recognition (NER)
 Possible libraries: spaCy, The Natural Language Toolkit (NLTK), TensorFlow, Keras
 
-Step 2: Hierarchical clustering
+- Step 2: Hierarchical clustering
 Under consideration: decision tree, K-means clustering, Latent Dirichlet allocation (LDA)
 
-*Step 3: build a recommendation system to suggest the highest matching expert(s) for each request but that is outside the scope of this project
+- *Step 3: build a recommendation system to suggest the highest matching expert(s) for each request but that is outside the scope of this project
 
 ---
 
@@ -39,7 +39,7 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 [INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
 
 Acronyms: NLP (Natural Language Processing), NER (Named-Entity Recognition), HC (Hierarchical Clustering), 
-DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of this project
+DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of this project[^1].
 
 ---
 
