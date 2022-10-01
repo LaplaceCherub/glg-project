@@ -38,10 +38,7 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 **Illustrative and simplified example**: 
 
-[INSERT BELOW PICTURE OF THREE AFOREMENTIONED STEPS INCLUDING INPUT/MODEL/OUTPUT SEQUENCE]
-
-Acronyms: NLP (Natural Language Processing), NER (Named-Entity Recognition), HC (Hierarchical Clustering), 
-DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of this project
+<img width="978" alt="image" src="https://user-images.githubusercontent.com/110877253/193379527-7296c4f7-3378-47bd-ba65-24d9af4380c6.png">
 
 </p>
 </details>
@@ -55,7 +52,7 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
   - Annotated Corpus for Named Entity Recognition | Kaggle 
 
-[INSERT BELOW PICTURE WITH EXAMPLES OF PERFORMED EDA]
+<img width="980" alt="image" src="https://user-images.githubusercontent.com/110877253/193379601-9c6982a3-232f-4d94-9bc5-c5d03c66de6b.png">
 
 </p>
 </details>
