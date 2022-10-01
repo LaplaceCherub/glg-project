@@ -1,4 +1,4 @@
-# :rocket: GLG project
+# 🚀 GLG project
 
 
 ## 🤝 A match made in machine learning heaven: linking every request to the best expert</h2>
