@@ -107,12 +107,6 @@ DJ (Disc Jockey), GLG (Gerson Lehrman Group). * Step 3 is outside the scope of t
 
 </p>
 </details>
-  
-<details><summary>MLE Stack</summary>
-<p>
-
-</p>
-</details>
 
 <details><summary>Authors and acknowledgment</summary>
 <p>
