@@ -4,7 +4,6 @@
 
 ## :rocket:  GLG project 
 
-
 ---
 
 **Context**: Cris, Ying and Cody are students of FourthBrain's Machine Learning Engineer course, cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the GLG project.
