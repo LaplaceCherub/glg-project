@@ -66,7 +66,7 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 
 - [ ] [PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
 
-- [ ] Starting to develop a web app in Flash
+- [ ] Starting to develop a web app in Flask
 
 </p>
 </details> 
