@@ -19,7 +19,7 @@ Cris, Ying and Cody are students of [FourthBrain's](https://fourthbrain.ai/) [Ma
 
 <img width="977" alt="image" src="https://user-images.githubusercontent.com/110877253/193379391-7bc81c97-fa89-4553-92d3-d62eaab639e1.png">
 
-Since GLG receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
+Since [GLG](https://glginsights.com/) receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
 
 </p>
 </details>
@@ -99,17 +99,23 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 <details><summary>Conclusions</summary>
 <p>
 
+Forthcoming.
+  
 </p>
 </details>
 
 <details><summary>Future work</summary>
 <p>
 
+Forthcoming.  
+  
 </p>
 </details>
 
 <details><summary>Authors and acknowledgment</summary>
 <p>
+  
+Forthcoming.
 
 </p>
 </details>
@@ -117,5 +123,7 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
 <details><summary>License</summary>
 <p>
 
+Forthcoming.
+  
 </p>
 </details>
