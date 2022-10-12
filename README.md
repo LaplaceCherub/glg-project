@@ -29,12 +29,16 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 Natural Language Processing (NLP), consisting of three steps:
 
 - Step 1:  Named-Entity Recognition (NER)
+  
 Possible libraries: spaCy, The Natural Language Toolkit (NLTK), TensorFlow, Keras
 
 - Step 2: Hierarchical clustering
+  
 Under consideration: decision tree, K-means clustering, Latent Dirichlet allocation (LDA)
 
-- *Step 3: build a recommendation system to suggest the highest matching expert(s) for each request but that is outside the scope of this project
+- Step 3*: build a recommendation system to suggest the highest matching expert(s) for each request
+  
+*Outside the scope of this project
 
 **Illustrative and simplified example**: 
 
