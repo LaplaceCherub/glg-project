@@ -90,9 +90,9 @@ Clustering, the below model has proven to be much better than baseline whose sil
   
 - Model 1: CountVectorizer with tokenizer=LemmaTokenizer() + KMeans
   
-    When n_cluster=2, Silhouette Coefficient is 0.28244613563900284 for random_states=1, 5, 10, 42
+ When n_cluster=2, Silhouette Coefficient is 0.28244613563900284 for random_states=1, 5, 10, 42
   
-    When n_cluster=3, Silhouette Coefficient is 0.17099173313074406 for random_states=0, 1
+ When n_cluster=3, Silhouette Coefficient is 0.17099173313074406 for random_states=0, 1
 
 - [ ] Starting to develop a web app in Flask
 
