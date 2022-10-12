@@ -82,7 +82,7 @@ XGB with one-hot encoding: Accuracy: 0.945, Recall: 0.906, Precision: 0.685, F1 
   
 Logistic Regression with one-hot encoding: Accuracy: 0.936, Recall: 0.901, Precision: 0.644, F1 Score: 0.751
   
-Test 3, TPOT for autoML: 
+Test 3, TPOT for AutoML: 
   
 - forthcoming
 
