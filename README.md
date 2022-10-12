@@ -72,15 +72,19 @@ Under consideration: decision tree, K-means clustering, Latent Dirichlet allocat
   
 NER (Named-Entity Recognition), the below tests are underway with the following preliminary results:
   
-Test 1, using spaCY predictions: Accuracy: 0.937, Recall: 0.619, Precision: 0.753, F1 Score: 0.680
+- Test 1, using spaCY predictions: 
   
-Test 2, lemmatization before vectorization:
+Accuracy: 0.937, Recall: 0.619, Precision: 0.753, F1 Score: 0.680
+  
+- Test 2, lemmatization before vectorization:
   
 XGB with one-hot encoding: Accuracy: 0.945, Recall: 0.906, Precision: 0.685, F1 Score: 0.780
   
 Logistic Regression with one-hot encoding: Accuracy: 0.936, Recall: 0.901, Precision: 0.644, F1 Score: 0.751
   
-Test 3, TPOT for autoMLL forthcoming
+Test 3, TPOT for autoML: 
+  
+- forthcoming
 
 - [ ] Starting to develop a web app in Flask
 
