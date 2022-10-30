@@ -17,6 +17,12 @@
 
 .team_image {
     max-width: 360px;
+    padding-bottom: 10px;
+}
+
+.team_page_name {
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .form-outline {
