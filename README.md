@@ -30,11 +30,12 @@ Natural Language Processing (NLP), consisting of three steps:
 
 - Step 1:  Named-Entity Recognition (NER)
   
-Possible libraries: spaCy, The Natural Language Toolkit (NLTK), TensorFlow, Keras
+Selected libraries: spaCy, The Natural Language Toolkit (NLTK)
 
-- Step 2: Hierarchical clustering
+- Step 2: Clustering
   
-Under consideration: decision tree, K-means clustering, Latent Dirichlet allocation (LDA)
+Topic modeling: latent Dirichlet allocation or LDA (being tested, promising)
+K-means clustering (current results disappointing; to be tested using better embedding algorithm)
 
 - Step 3*: build a recommendation system to suggest the highest matching expert(s) for each request
   
