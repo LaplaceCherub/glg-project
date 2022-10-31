@@ -35,6 +35,7 @@ Selected libraries: spaCy, The Natural Language Toolkit (NLTK)
 - Step 2: Clustering
   
 Topic modeling: latent Dirichlet allocation or LDA (being tested, promising)
+  
 K-means clustering (current results disappointing; to be tested using better embedding algorithm)
 
 - Step 3*: build a recommendation system to suggest the highest matching expert(s) for each request
