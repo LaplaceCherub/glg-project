@@ -49,7 +49,7 @@ K-means clustering (current results disappointing; to be tested using better emb
 </p>
 </details>
   
-<details><summary>Where we've been</summary>
+<details><summary>Data + Model</summary>
 <p>
 
 **Data:**
