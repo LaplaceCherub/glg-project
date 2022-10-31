@@ -59,9 +59,6 @@ K-means clustering (current results disappointing; to be tested using better emb
   - Annotated Corpus for Named Entity Recognition | Kaggle 
 
 <img width="980" alt="image" src="https://user-images.githubusercontent.com/110877253/193379601-9c6982a3-232f-4d94-9bc5-c5d03c66de6b.png">
-
-</p>
-</details>
   
 **Model:**  
   
@@ -69,13 +66,10 @@ K-means clustering (current results disappointing; to be tested using better emb
 
 <img width="901" alt="image" src="https://user-images.githubusercontent.com/110877253/198972194-675e8692-ca98-48ff-b10d-61d684c3a051.png">
 
-  
 </p>
 </details>
   
 <details><summary>Where we're going (Demo)</summary>
-<p>
-</details>
   
 <img width="935" alt="image" src="https://user-images.githubusercontent.com/110877253/198973272-2981e3c2-9df9-4085-8138-8c2259595022.png">
   
