@@ -61,6 +61,7 @@ K-means clustering (current results disappointing; to be tested using better emb
 <img width="980" alt="image" src="https://user-images.githubusercontent.com/110877253/193379601-9c6982a3-232f-4d94-9bc5-c5d03c66de6b.png">
 
 </p>
+</details>
   
 **Model:**  
   
@@ -72,55 +73,11 @@ K-means clustering (current results disappointing; to be tested using better emb
 </p>
 </details>
   
-<details><summary>Where we're going</summary>
+<details><summary>Where we're going (Demo)</summary>
 <p>
 
-**Next step:** train our model using this other 2.7-million news articles dataset:
-
-- [ ] All the News 2.0 - Components
-
-- [ ] [PLACEHOLDER: Establish baseline model through AutoML or a pre-trained model + Document performance report in markdown]
+<img width="935" alt="image" src="https://user-images.githubusercontent.com/110877253/198973272-2981e3c2-9df9-4085-8138-8c2259595022.png">
   
-NER (Named-Entity Recognition), the below tests are underway with the following preliminary results:
-  
-- Test 1, using spaCY predictions: 
-  
-Accuracy: 0.937, Recall: 0.619, Precision: 0.753, F1 Score: 0.680
-  
-- Test 2, lemmatization before vectorization:
-  
-XGB with one-hot encoding: Accuracy: 0.945, Recall: 0.906, Precision: 0.685, F1 Score: 0.780
-  
-Logistic Regression with one-hot encoding: Accuracy: 0.936, Recall: 0.901, Precision: 0.644, F1 Score: 0.751
-  
-Test 3, TPOT for AutoML: 
-  
-- forthcoming
-  
-Clustering, the below model has proven to be much better than baseline whose silhouette coefficient was less than 0.1:
-  
-- Model 1: CountVectorizer with tokenizer=LemmaTokenizer() + KMeans
-  
- When n_cluster=2, Silhouette Coefficient is 0.28244613563900284 for random_states=1, 5, 10, 42
-  
-  When n_cluster=3, Silhouette Coefficient is 0.17099173313074406 for random_states=0, 1
-
-- [ ] Starting to develop a web app in Flask
-
-</p>
-</details> 
-
-<details><summary>Data and model iteration</summary>
-<p>
-
-- [ ] [PLACEHOLDER: Document performance, interpretation, and learnings in markdown]
-
-- [ ] [PLACEHOLDER:Document limitations of your model / data / ML pipeline]
-
-- [ ] [PLACEHOLDER: Restructure GitHub into scripts / modules / submodules]
-
-- [ ] [PLACEHOLDER: Ensure that instructors can easily follow your README.md instructions to deploy your demo locally and in the cloud.]
-
 </p>
 </details>
   
