@@ -60,7 +60,9 @@ K-means clustering (current results disappointing; to be tested using better emb
 
 <img width="980" alt="image" src="https://user-images.githubusercontent.com/110877253/193379601-9c6982a3-232f-4d94-9bc5-c5d03c66de6b.png">
   
-**Model:**  
+<p>  
+  
+**Model:** 
   
 <img width="896" alt="image" src="https://user-images.githubusercontent.com/110877253/198972012-401a7fb3-8ca7-4d9e-bfe0-20d4fd62e7d2.png">
 
@@ -69,7 +71,8 @@ K-means clustering (current results disappointing; to be tested using better emb
 </p>
 </details>
   
-<details><summary>Where we're going (Demo)</summary>
+<details><summary>Where we're going (Demo)</summary>  
+<p>
   
 <img width="935" alt="image" src="https://user-images.githubusercontent.com/110877253/198973272-2981e3c2-9df9-4085-8138-8c2259595022.png">
   
