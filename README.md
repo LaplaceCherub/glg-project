@@ -61,6 +61,15 @@ K-means clustering (current results disappointing; to be tested using better emb
 <img width="980" alt="image" src="https://user-images.githubusercontent.com/110877253/193379601-9c6982a3-232f-4d94-9bc5-c5d03c66de6b.png">
 
 </p>
+  
+**Model:**  
+  
+<img width="896" alt="image" src="https://user-images.githubusercontent.com/110877253/198972012-401a7fb3-8ca7-4d9e-bfe0-20d4fd62e7d2.png">
+
+<img width="901" alt="image" src="https://user-images.githubusercontent.com/110877253/198972194-675e8692-ca98-48ff-b10d-61d684c3a051.png">
+
+  
+</p>
 </details>
   
 <details><summary>Where we're going</summary>
