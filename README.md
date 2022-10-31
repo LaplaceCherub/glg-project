@@ -150,7 +150,7 @@ Forthcoming.
 <details><summary>License</summary>
 <p>
 
-Forthcoming.
+MIT License.
   
 </p>
 </details>
