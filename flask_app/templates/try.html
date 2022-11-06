@@ -2,9 +2,13 @@
 {%block title%}Try It Out{%endblock%}
 {%block header%}<h2 class="page_header">Enter Text to Get Matched!</h2>{%endblock%}
 {%block content%}
+
+<form action="{{ url_for('try_out')}}" method="post">
     <div class="form-outline">
-        <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
-        <button type="button" class="btn btn-dark">Let's Connect You!</button>
+        <textarea class="form-control" id="textArea" rows="4" name="text"></textarea>
+        <button type="submit" class="btn btn-dark">Let's Connect You!</button>
     </div>
-    
+</form>
+<h3 class="text_result">{{ opener }}</h3>
+<p class="text_result">{{ text }}</p>
 {%endblock%}
