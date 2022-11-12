@@ -8,6 +8,8 @@ from nltk.stem import WordNetLemmatizer
 import string
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger')
 
 ####### NER Model ###########
 
