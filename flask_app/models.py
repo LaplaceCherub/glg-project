@@ -1,12 +1,14 @@
 import pandas as pd
 import spacy
+import pickle
+
 import nltk
 from nltk.corpus import stopwords 
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 import string
 
-####### NER Model Prepreocessor ###########
+####### NER Model ###########
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -34,7 +36,22 @@ def sentence_preprocessor(text):
 
     return return_list, intermediate_df
 
-####### LDA Model Preprocesser ###########
+def get_ners(text):
+    '''
+    return a list of Named Entities from the text. 
+    '''
+    df_list, intermediate_df = sentence_preprocessor(text)
+    with open('ner_model.pkl', 'rb') as ner_f:
+        ner_model = pickle.load(ner_f)
+    preds = ner_model.predict(intermediate_df)
+    ner_list = []
+    for pred, word in zip(preds, df_list):
+        if pred == 1:
+            ner_list.append(word[0])
+    return ner_list
+
+
+####### LDA Model ###########
 
 def _lemmatize_words(sentence):
     wordnet_map = {'N':wordnet.NOUN, 'V':wordnet.VERB, 'J':wordnet.ADJ, 'R':wordnet.ADV}
@@ -50,15 +67,20 @@ def lda_sent_process(text):
     text = _lemmatize_words(text)
     return text.split()
 
-def get_topics(new_text, lda_model, dct): 
+def get_topics(text): 
     '''
-    new_text: str
+    text: str
     lda_model: load from lda.pkl
     dct: load from dct.pkl
     '''
+    with open('dct.pkl', 'rb') as dct_f:
+        dictionary = pickle.load(dct_f)
+    with open('lda.pkl', 'rb') as lda_f:
+        lda_model = pickle.load(lda_f)
+    
     rtn_list = []
-    new_text_doc = lda_sent_process(new_text)
-    topics = lda_model[dct.doc2bow(new_text_doc)]
+    new_text_doc = lda_sent_process(text)
+    topics = lda_model[dictionary.doc2bow(new_text_doc)]
     for topic in topics: 
         rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
     return rtn_list
