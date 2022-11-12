@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -U pip
 RUN pip install --no-cache-dir -U -r requirements.txt
 COPY . .
 EXPOSE 8000
-CMD ["python", "app.py"]
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
