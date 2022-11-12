@@ -113,7 +113,10 @@ def get_topics(text):
 #    for topic in topics: 
 #        rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
     topics.sort(key=lambda x: x[-1], reverse=True)
-    return topics[:4]
+    for idx, (topic_num, percentage) in enumerate(topics):
+        percentage = "{:2.2%}".format(percentage)
+        topics[idx] = (topic_num, percentage)
+    return topics if len(topics) <=4 else topics[:4]
 
 
 if __name__ == '__main__':
