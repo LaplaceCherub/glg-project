@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir -U numpy
 COPY requirements.txt .
 RUN pip install --no-cache-dir -U pip
 RUN pip install --no-cache-dir -U -r requirements.txt
+RUN python -m spacy download en_core_web_sm
 COPY . .
 EXPOSE 8000
-CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
+CMD ["python", "app.py"]
