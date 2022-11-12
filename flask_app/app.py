@@ -23,4 +23,4 @@ def try_out():
     return render_template('try.html', requested=False)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=True, port=8000, host='0.0.0.0')

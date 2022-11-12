@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 import string
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 ####### NER Model ###########
 
