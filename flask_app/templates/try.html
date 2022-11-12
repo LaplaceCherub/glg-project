@@ -17,17 +17,23 @@
 {% if requested %}
 
     <h3 class="text_result">
-        The entities from the input are: 
+        The entities from the text are: 
     </h3>
 
     <p class="text_result">{{ ner_text }}</p>
 
     <h3 class="text_result">
-        The request is related to the following topics: 
+        The text may be related to the following topics: 
     </h3>
 
-    <p class="text_result">{{ lda_text }}</p>
-
+    <ul>
+        {% for topic_num, topic_per in topics %}
+        <li> 
+            <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
+        </li>
+        {% endfor %}
+    </ul>
+    
 {% endif %}
 
 {%endblock%}
