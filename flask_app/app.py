@@ -51,8 +51,6 @@ def try_out():
         for pred, word in zip(preds, df_list):
             if pred == 1:
                 rtn_ners.append(word[0])
-        ner_opener = "The entities from the input are:"
-
 
         dct = pickle.load(open('dct.pkl', 'rb')) 
         lda_model = pickle.load(open('lda.pkl', 'rb'))   
@@ -84,11 +82,10 @@ def try_out():
                 rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
             return rtn_list
 
-        lda_opener = 'The clusters from the input are:'
         lda_text = get_topics(text, lda_model, dct)
     
-        return render_template('try.html', ner_opener=ner_opener, ner_text=rtn_ners, lda_opener=lda_opener, lda_text=lda_text)
-    return render_template('try.html')
+        return render_template('try.html', requested=True, ner_text=rtn_ners, lda_text=lda_text)
+    return render_template('try.html', requested=False)
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
