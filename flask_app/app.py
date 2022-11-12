@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
 
-from models import get_ners, get_topics
+from models import get_ners, get_topics, topics_dict
 
 app = Flask(__name__)
 
@@ -17,8 +17,9 @@ def try_out():
     if request.method == 'POST':
         text = request.form.get('text')
         ner_text = get_ners(text)         
-        lda_text = get_topics(text)
-        return render_template('try.html', requested=True, ner_text=ner_text, lda_text=lda_text)
+        topics = get_topics(text)
+        return render_template('try.html', requested=True, ner_text=ner_text, 
+                topics = topics, topics_dict=topics_dict)
     return render_template('try.html', requested=False)
 
 if __name__ == '__main__':

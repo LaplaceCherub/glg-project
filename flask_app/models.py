@@ -1,7 +1,6 @@
 import pandas as pd
 import spacy
 import pickle
-
 import nltk
 from nltk.corpus import stopwords 
 from nltk.corpus import wordnet
@@ -80,20 +79,46 @@ def lda_sent_process(text):
     text = _lemmatize_words(text)
     return text.split()
 
+topics_dict = {
+    0: ['vote', 'bird', 'election', 'flu'], 
+    1: ['north', 'south', 'korea', 'prime', 'minister'],
+    2: ['Beijing', 'Britain', 'France', 'gas', 'German', 'Middle', 'East', 'Russian'], 
+    3: ['attack', 'military', 'bomb', 'force'],
+    4: ['Iran', 'United', 'State', 'nuclear', 'European'],
+    5: [ 'police', 'force', 'city', 'Muslim', 'security' ], 
+    6: ['party', 'president', 'election', 'leader'], 
+    7: ['woman', 'citizen', 'explosive'],
+    8: ['Israeli', 'Islamic', 'militant'],
+    9: ['economic', 'economy', 'price', 'world'],
+    10: ['Lebanon', 'responsibility', 'explosion', 'group'],
+    11: ['government', 'Israel', 'Palestinian','peace'], 
+    12: ['United', 'State', 'secretary', 'storm', 'hurricane', 'emergency'],
+    13: ['charge', 'right', 'court', 'Iraq', 'house'],
+    14: ['oil', 'company',  'market', 'demand', 'power', 'government'],
+}
+
 def get_topics(text): 
     '''
     text: str
-    lda_model: load from lda.pkl
-    dct: load from dct.pkl
+    return: a list of (topic_num, topic_percentage)
     '''
     with open('dct.pkl', 'rb') as dct_f:
         dictionary = pickle.load(dct_f)
     with open('lda.pkl', 'rb') as lda_f:
         lda_model = pickle.load(lda_f)
     
-    rtn_list = []
-    new_text_doc = lda_sent_process(text)
-    topics = lda_model[dictionary.doc2bow(new_text_doc)]
-    for topic in topics: 
-        rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
-    return rtn_list
+#    rtn_list = []
+    text_doc = lda_sent_process(text)
+    topics = lda_model[dictionary.doc2bow(text_doc)]
+#    for topic in topics: 
+#        rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
+    topics.sort(key=lambda x: x[-1], reverse=True)
+    return topics[:4]
+
+
+if __name__ == '__main__':
+    text = 'Mail Ballots Around Las Vegas Are Likely to Put Democrats Ahead.'
+
+    topics = get_topics(text)
+
+    print(topics)
