@@ -36,9 +36,9 @@ def sentence_preprocessor(text):
 
     return return_list, intermediate_df
 
-def get_ners(text):
+def get_ners_reg(text):
     '''
-    return a list of Named Entities from the text. 
+    return the list of Named Entities in text from our model
     '''
     df_list, intermediate_df = sentence_preprocessor(text)
     with open('ner_model.pkl', 'rb') as ner_f:
@@ -50,6 +50,19 @@ def get_ners(text):
             ner_list.append(word[0])
     return ner_list
 
+def get_ners(text):
+    '''
+    return a list of Named Entities from the text combined from our model and spacy.ents . 
+    '''
+    tokens = nlp(text)
+    spacy_ners = [ent.text for ent in tokens.ents]
+    our_ners = get_ners_reg(text)
+    # spacy picks up entities with more than one words
+    spacy_ners_words_list = [word for ner_phrase in spacy_ners for word in ner_phrase.split()]
+    for ner in our_ners:
+        if ner.text not in spacy_ners_words_list:
+            spacy_ners.append(ner.text)
+    return spacy_ners
 
 ####### LDA Model ###########
 
