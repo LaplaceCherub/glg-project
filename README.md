@@ -1,7 +1,7 @@
 # 🚀 [GLG](https://glginsights.com/) project
 
 ## A match made in machine learning heaven: 🙋 ➡️ 🤓 linking every request to the best expert
-### 👏  By [Cris Fortes](https://www.linkedin.com/in/crisfortes/), [Ying Hu](https://www.linkedin.com/in/ying-hu-math/) and [Cody McCormack](https://www.linkedin.com/in/codymccormack/)
+### 👏  By [Ying Hu](https://www.linkedin.com/in/ying-hu-math/) and [Cody McCormack](https://www.linkedin.com/in/codymccormack/), [Cris Fortes](https://www.linkedin.com/in/crisfortes/)
 
 <details><summary>Context</summary>
 <p>
