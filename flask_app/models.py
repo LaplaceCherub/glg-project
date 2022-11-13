@@ -111,21 +111,32 @@ def get_topics(text):
     with open('lda.pkl', 'rb') as lda_f:
         lda_model = pickle.load(lda_f)
     
-#    rtn_list = []
     text_doc = lda_sent_process(text)
     topics = lda_model[dictionary.doc2bow(text_doc)]
-#    for topic in topics: 
-#        rtn_list.append(f'Topic {topic[0]} with probability {topic[1]}')
     topics.sort(key=lambda x: x[-1], reverse=True)
     for idx, (topic_num, percentage) in enumerate(topics):
         percentage = "{:2.2%}".format(percentage)
         topics[idx] = (topic_num, percentage)
     return topics if len(topics) <=4 else topics[:4]
 
+####### KNN + Transformer Model ###########
+
+def get_near_sent(text):
+    with open('emb_model.pkl', 'rb') as emb_f:
+        emb_model = pickle.load(emb_f)
+    with open('knn_model.pkl', 'rb') as knn_f:
+        knn_model = pickle.load(knn_f)   
+    sentences_df = pd.read_csv('static/sentences.csv')
+
+    embedding = emb_model.encode([text])
+    _, index = knn_model.kneighbors(embedding)
+    near_sent = []
+    for idx in range(index.shape[1]):
+        near_sent.append(sentences_df['Sentences'][index[0,idx]])
+    return near_sent
 
 if __name__ == '__main__':
     text = 'Mail Ballots Around Las Vegas Are Likely to Put Democrats Ahead.'
-
-    topics = get_topics(text)
+    topics = get_near_sent(text)
 
     print(topics)
