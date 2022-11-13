@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
 
-from models import get_ners, get_topics, topics_dict
+from models import get_ners, get_topics, get_near_sent, topics_dict
 
 app = Flask(__name__)
 
@@ -18,8 +18,9 @@ def try_out():
         text = request.form.get('text')
         ner_text = get_ners(text)         
         topics = get_topics(text)
+        nearest_text = get_near_sent(text)
         return render_template('try.html', requested=True, ner_text=ner_text, 
-                topics = topics, topics_dict=topics_dict)
+                topics = topics, nearest_text=nearest_text, topics_dict=topics_dict)
     return render_template('try.html', requested=False)
 
 if __name__ == '__main__':

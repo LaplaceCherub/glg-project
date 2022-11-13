@@ -33,6 +33,18 @@
         </li>
         {% endfor %}
     </ul>
+
+    <h3 class="text_result">
+        The text is close to the following texts: 
+    </h3>
+
+    <ul>
+        {% for text in nearest_text %}
+        <li> 
+            <p class="text_result"> {{ text }} </p>
+        </li>
+        {% endfor %}
+    </ul>
     
 {% endif %}
 
