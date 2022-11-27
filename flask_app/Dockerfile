@@ -8,11 +8,10 @@ RUN apt-get -y update  && apt-get install -y \
 && rm -rf /var/lib/apt/lists/* 
 
 RUN pip install --no-cache-dir -U pip
-RUN pip install --no-cache-dir -U numpy
 COPY requirements.txt .
-RUN pip install --no-cache-dir -U pip
 RUN pip install --no-cache-dir -U -r requirements.txt
 RUN python -m spacy download en_core_web_sm
+RUN python -m pip install gunicorn
 COPY . .
 EXPOSE 8000
-CMD ["python", "app.py"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8000", "app:app"]
