@@ -9,13 +9,18 @@
 
 <form action="{{ url_for('try_out')}}" method="post">
     <div class="form-outline">
-        <textarea class="form-control" id="textArea" rows="4" name="text"></textarea>
+        <textarea class="form-control" id="textArea" rows="4" name="text" required></textarea>
         <button type="submit" class="btn btn-dark">Let's Connect You!</button>
     </div>
 </form>
 
 {% if requested %}
+    <h3 class="text_result">
+        The text entered is:
+    </h3>
 
+    <p class="text_result">{{ original_sentence }}</p>
+    
     <h3 class="text_result">
         The entities from the text are: 
     </h3>
