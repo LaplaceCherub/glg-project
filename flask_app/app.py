@@ -20,7 +20,8 @@ def try_out():
         topics = get_topics(text)
         nearest_text = get_near_sent(text)
         return render_template('try.html', requested=True, ner_text=ner_text, 
-                topics = topics, nearest_text=nearest_text, topics_dict=topics_dict)
+                topics = topics, nearest_text=nearest_text, topics_dict=topics_dict,
+                original_sentence=text)
     return render_template('try.html', requested=False)
 
 if __name__ == '__main__':
