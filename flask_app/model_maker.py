@@ -16,7 +16,8 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from gensim.corpora.dictionary import Dictionary 
 from gensim import models 
-import re
+from sentence_transformers import SentenceTransformer
+
 import os
 ROOT_DIR = os.path.dirname(__file__)
 
@@ -86,7 +87,7 @@ pipeline.fit(X_train, y_train)
 pickle.dump(pipeline, open(os.path.join(ROOT_DIR, 'ner_model.pkl'), 'wb'))
 
 # LDA model
-ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../datasets/extended_df.csv'), 
+ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../datasets/ner_dataset.csv'), 
     encoding='latin1')
 
 ner_dataset['Sentence #'] = ner_dataset['Sentence #'].str.replace('Sentence:', '')
@@ -96,8 +97,6 @@ ner_dataset['Sentence #'] = ner_dataset['Sentence #'].astype(int)
 
 sentences_df = ner_dataset.groupby('Sentence #', as_index=False)['Word'].apply(lambda x: x.str.cat(sep=' '))
 sentences_df = sentences_df.rename(columns={'Word': 'Sentences'})
-
-sentences_df.iloc[8411]
 
 sentences_df = sentences_df.drop(labels=[8411], axis=0)
 sentences_df = sentences_df.reset_index()
@@ -127,51 +126,8 @@ def lda_sent_process(text):
 sentences_df['lda_sents'] = sentences_df['Sentences'].apply(lambda x: lda_sent_process(x))
 
 dct = Dictionary(sentences_df['lda_sents'])
-
 corpus = [dct.doc2bow(sentence) for sentence in sentences_df['lda_sents']]
 lda = models.LdaModel(corpus, num_topics=15, random_state=36)
-
-topics = lda.print_topics()
-
-for topic in topics:
-  key_indices = re.findall(r'"(.*?)"', topic[1])
-  key_words = [dct[int(idx)] for idx in key_indices]
-
-topics_dict = {}
-for num, topics in enumerate(topics):
-  key_indices = re.findall(r'"(.*?)"', topic[1])
-  key_words = [dct[int(idx)] for idx in key_indices]
-  topics_dict[num] = key_words
-
-topics_dict = {
-  0: ['vote', 'bird', 'election', 'flu'], 
-  1: ['minister', 'prime', 'north', 'south', 'president', 'korea'],
-  2: ['foreign', 'Beijing', 'Britain', 'France', 'gas', 'German', 'Middle', 'East', 'Russian'], 
-  3: ['kill', 'attack', 'military', 'bomb', 'force'],
-  4: ['Iran', 'United', 'State', 'nuclear', 'European', 'international'],
-  5: [ 'police', 'force', 'city', 'Muslim', 'spokesman', 'security' ], 
-  6: ['party', 'president', 'election', 'leader'], 
-  7: ['woman', 'citizen', 'explosive'],
-  8: ['Israeli', 'death', 'kill', 'Islamic', 'militant'],
-  9: ['world', 'economic', 'economy', 'price', 'country'],
-  10: ['Lebanon', 'blast', 'responsibility', 'explosion', 'group'],
-  11: ['government', 'president', 'Israel', 'Palestinian','peace', 'leader'], 
-  12: ['United', 'State', 'secretary', 'storm', 'hurricane', 'emergency'],
-  13: ['president', 'charge', 'right', 'court', 'Iraq', 'house'],
-  14: ['oil', 'company',  'market', 'demand', 'production', 'decline', 'power', 'government'],
-  }
-
-def get_topics(new_text, lda_model, dct): 
-  '''
-  new_text: str
-  lda_model: load from lda.pkl
-  dct: load from dct.pkl
-  '''
-  new_text_doc = lda_sent_process(new_text)
-  topics = lda_model[dct.doc2bow(new_text_doc)]
-  for num, topic in enumerate(topics): 
-    print(f'Topic {topic[0]}:  with probability {topic[1]}')
-    print(topics_dict[num])
 
 with open(os.path.join(ROOT_DIR, 'dct.pkl'), 'wb') as pickle_dict: 
   pickle.dump(dct, pickle_dict)
@@ -179,10 +135,8 @@ with open(os.path.join(ROOT_DIR, 'lda.pkl'), 'wb') as pickle_lda:
   pickle.dump(lda, pickle_lda)
 
 # Transformer model
-from sentence_transformers import SentenceTransformer
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
-
 embeddings = model.encode(sentences_df['Sentences'])
 
 from sklearn.neighbors import NearestNeighbors 
