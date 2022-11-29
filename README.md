@@ -86,12 +86,9 @@ K-means clustering (current results disappointing; to be tested using better emb
 <details><summary>MLE Stack</summary>
 <p>
 
-- [ ] [Exploratory Data Analysis & Wrangling, Experimentation, Data Engineering Pipeline, Machine Learning Pipeline, Deployment Pipeline]
-
-- [ ] [Maybe consider: Feature Store, Metadata store, Model registry, Model serving, Model Monitoring]
+</p>
   
-<img width="950" alt="image" src="https://user-images.githubusercontent.com/110877253/198978730-a0fca69c-f7ac-4b2a-8f24-d6890834f86b.png">
-
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/110877253/204172419-401e7b62-ed54-4450-9a94-a278c9b0c9a8.png">
 
 </p>
 </details>
