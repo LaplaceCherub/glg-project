@@ -18,9 +18,12 @@ from nltk.stem import WordNetLemmatizer
 from gensim.corpora.dictionary import Dictionary 
 from gensim import models 
 import re
+import os
+import sys
+ROOT_DIR = os.path.dirname(__file__) #os.path.realpath(os.path.join(sys.path[0], '..'))
 
 # NER model
-ner_df = pd.read_csv('../../datasets/extended_df.csv')
+ner_df = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'))
 ner_df.drop(columns=['Unnamed: 0'], inplace=True)
 ner_df['Sentence #'] = ner_df['Sentence #'].str.replace('Sentence: ','')
 ner_df['Sentence #'].fillna(method='ffill', inplace=True)
