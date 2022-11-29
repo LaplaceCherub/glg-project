@@ -85,7 +85,7 @@ pipeline = Pipeline(steps=[('preprocessor', preprocessor),
 
 pipeline.fit(X_train, y_train) 
 
-pickle.dump(pipeline, open('ner_model.pkl', 'wb'))
+pickle.dump(pipeline, open(os.path.join(ROOT_DIR, 'ner_model.pkl'), 'wb'))
 
 # LDA model
 ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'), 
@@ -175,9 +175,9 @@ def get_topics(new_text, lda_model, dct):
     print(f'Topic {topic[0]}:  with probability {topic[1]}')
     print(topics_dict[num])
 
-with open('dct.pkl', 'wb') as pickle_dict: 
+with open(os.path.join(ROOT_DIR, 'dct.pkl'), 'wb') as pickle_dict: 
   pickle.dump(dct, pickle_dict)
-with open('lda.pkl', 'wb') as pickle_lda:
+with open(os.path.join(ROOT_DIR, 'lda.pkl'), 'wb') as pickle_lda:
   pickle.dump(lda, pickle_lda)
 
 # Transformer model
@@ -190,7 +190,7 @@ embeddings = model.encode(sentences_df['Sentences'])
 from sklearn.neighbors import NearestNeighbors 
 nbrs = NearestNeighbors(n_neighbors=3, algorithm='ball_tree').fit(embeddings)
 
-with open('emb_model.pkl', 'wb') as pickle_emb:
+with open(os.path.join(ROOT_DIR, 'emb_model.pkl'), 'wb') as pickle_emb:
   pickle.dump(model, pickle_emb)
-with open('knn_modle.pkl', 'wb') as pickle_knn:
+with open(os.path.join(ROOT_DIR, 'knn_modle.pkl'), 'wb') as pickle_knn:
   pickle.dump(nbrs, pickle_knn)
