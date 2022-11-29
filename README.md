@@ -36,7 +36,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="882" alt="image" src="https://user-images.githubusercontent.com/110877253/204224541-f62ca332-91a4-48d8-9d54-c8af127f503a.png">
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/110877253/204672867-e0fba702-4103-4093-8a88-5863a12e7676.png">
 
 </p>
 </details>
