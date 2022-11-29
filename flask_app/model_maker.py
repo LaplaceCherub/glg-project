@@ -190,5 +190,5 @@ nbrs = NearestNeighbors(n_neighbors=3, algorithm='ball_tree').fit(embeddings)
 
 with open(os.path.join(ROOT_DIR, 'emb_model.pkl'), 'wb') as pickle_emb:
   pickle.dump(model, pickle_emb)
-with open(os.path.join(ROOT_DIR, 'knn_modle.pkl'), 'wb') as pickle_knn:
+with open(os.path.join(ROOT_DIR, 'knn_model.pkl'), 'wb') as pickle_knn:
   pickle.dump(nbrs, pickle_knn)
