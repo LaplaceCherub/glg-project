@@ -134,5 +134,8 @@ MIT License.
   <li>Clone this repository, either on a local machine or in a cloud instance</li>
   <li>Navigate to the flask_app folder</li>
   <li>Build the Docker image, using the command <code>docker build -t image_name .</code></li>
+    <ul>
+      <li>If you don't have Docker installed locally or in the cloud instance, you will have to <a href="https://docs.docker.com/get-docker/">install</a> and activate the Daemon in order to build a Docker image.</li>
+    </ul>
 </ol>
 </details>
