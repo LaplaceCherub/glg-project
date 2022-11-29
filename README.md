@@ -143,7 +143,9 @@ MIT License.
 <p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the case, and you need to take the steps below to remediate the issue:</p>
 <ol>
   <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
-  <li>Install the requirements.txt file in the flask_app folder</li>
-  <li>Navigate to the flask_app folder</li>
+  <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
+  <li>Install <a href="pip install notebook">Jupyter Notebooks</a>, if you're environment doesn't already have them.</li>
+  <li>Open the Jupyter Notebook models.ipynb, and run the entire notebook using the "Run All" button at the top.</li>
 </ol>
+<p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
 </details>
