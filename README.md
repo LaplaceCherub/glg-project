@@ -127,3 +127,12 @@ MIT License.
   
 </p>
 </details>
+
+<details><summary>Deployment Instructions</summary>
+<p>This app can be (relatiely, see note below) easily deployed using Docker.</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+</details>
