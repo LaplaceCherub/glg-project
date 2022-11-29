@@ -129,7 +129,7 @@ MIT License.
 </details>
 
 <details><summary>Deployment Instructions</summary>
-<p>This app can be (relatiely, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
+<p>This app can be (relatively, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
 <ol>
   <li>Clone this repository, either on a local machine or in a cloud instance</li>
   <li>Navigate to the flask_app folder</li>
