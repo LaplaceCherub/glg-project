@@ -132,8 +132,7 @@ This app can be (relatively, see note below) easily deployed using Docker. The i
 <ol>
   <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
   <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
-  <li>Install <a href="pip install notebook">Jupyter Notebooks</a>, if you're environment doesn't already have them.</li>
-  <li>Open the Jupyter Notebook models.ipynb, and run the entire notebook using the "Run All" button at the top.</li>
+  <li>Run the model_maker.py file with the command <code>python model_maker.py</code></li>
 </ol>
 <p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
 </details>
