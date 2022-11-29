@@ -21,7 +21,7 @@ import os
 ROOT_DIR = os.path.dirname(__file__)
 
 # NER model
-ner_df = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'))
+ner_df = pd.read_csv(os.path.join(ROOT_DIR, '../datasets/extended_df.csv'))
 ner_df.drop(columns=['Unnamed: 0'], inplace=True)
 ner_df['Sentence #'] = ner_df['Sentence #'].str.replace('Sentence: ','')
 ner_df['Sentence #'].fillna(method='ffill', inplace=True)
@@ -86,7 +86,7 @@ pipeline.fit(X_train, y_train)
 pickle.dump(pipeline, open(os.path.join(ROOT_DIR, 'ner_model.pkl'), 'wb'))
 
 # LDA model
-ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'), 
+ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../datasets/extended_df.csv'), 
     encoding='latin1')
 
 ner_dataset['Sentence #'] = ner_dataset['Sentence #'].str.replace('Sentence:', '')
