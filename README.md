@@ -133,6 +133,6 @@ MIT License.
 <ol>
   <li>Clone this repository, either on a local machine or in a cloud instance</li>
   <li>Navigate to the flask_app folder</li>
-  <li>Milk</li>
+  <li>Build the Docker image, using the command <code>docker build -t image_name .</code></li>
 </ol>
 </details>
