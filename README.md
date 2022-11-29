@@ -25,17 +25,16 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
   
 <details><summary>The solution</summary>
 <p>
-</details>
+<p>
 
 <img width="883" alt="image" src="https://user-images.githubusercontent.com/110877253/204224020-1b5d9761-2d18-46be-a0bb-70bcb5578d28.png">
-
 
 </p>
 </details>
   
 <details><summary>Data + Model</summary>
 <p>
-</details>
+<p>
 
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/110877253/204224541-f62ca332-91a4-48d8-9d54-c8af127f503a.png">
 
@@ -44,7 +43,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
   
 <details><summary>Demo</summary>  
 <p>
-</details>  
+<p>
   
 <img width="898" alt="image" src="https://user-images.githubusercontent.com/110877253/204224828-08ba6492-71c0-4862-a877-74cec80ffb34.png">
   
@@ -53,13 +52,11 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
   
 <details><summary>MLE Stack</summary>
 <p>
-</details>  
-
+<p>
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/110877253/204225162-fcec11aa-0059-4674-b18b-a749cf36cad4.png">
 </p>
   
-
 </p>
 </details>
 
@@ -74,7 +71,6 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 
 - Seeing a live, working, deployed model that addresses a real business problem is priceless 
 
-  
 </p>
 </details>
 
@@ -119,7 +115,9 @@ SOFTWARE.
 </details>
 
 <details><summary>Deployment Instructions</summary>
-<p>This app can be (relatively, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
+<p>
+
+This app can be (relatively, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
 <ol>
   <li>Clone this repository, either on a local machine or in a cloud instance</li>
   <li>Navigate to the flask_app folder</li>
