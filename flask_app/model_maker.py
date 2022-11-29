@@ -1,6 +1,5 @@
 # Imports
 import pandas as pd
-import numpy as np 
 import string
 import spacy
 from spacy.tokens import Doc
@@ -19,7 +18,6 @@ from gensim.corpora.dictionary import Dictionary
 from gensim import models 
 import re
 import os
-import sys
 ROOT_DIR = os.path.dirname(__file__)
 
 # NER model
