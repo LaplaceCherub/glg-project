@@ -55,7 +55,10 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 </details>  
 
+
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/110877253/204225162-fcec11aa-0059-4674-b18b-a749cf36cad4.png">
+</p>
+  
 
 </p>
 </details>
@@ -113,4 +116,26 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
   
 </p>
+</details>
+
+<details><summary>Deployment Instructions</summary>
+<p>This app can be (relatively, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
+<ol>
+  <li>Clone this repository, either on a local machine or in a cloud instance</li>
+  <li>Navigate to the flask_app folder</li>
+  <li>Build the Docker image, using the command <code>docker build -t image_name .</code></li>
+    <ul>
+      <li>If you don't have Docker installed locally or in the cloud instance, you will have to <a href="https://docs.docker.com/get-docker/">install</a> and <a href="https://docs.docker.com/config/daemon/systemd/">activate</a> the Daemon in order to build a Docker image.</li>
+    </ul>
+  <li>Run the Docker image using the command <code>docker run -d --rm --name container_name -p 8000:8000 image_name</code></li>
+  <li>Navigate to either your local host, port 8000, or the public IP of the cloud instance, port 8000. E.g. 127.0.0.0:8000</li>
+</ol>
+<p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the problem, and you need to take the steps below to remediate the issue:</p>
+<ol>
+  <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
+  <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
+  <li>Install <a href="pip install notebook">Jupyter Notebooks</a>, if you're environment doesn't already have them.</li>
+  <li>Open the Jupyter Notebook models.ipynb, and run the entire notebook using the "Run All" button at the top.</li>
+</ol>
+<p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
 </details>
