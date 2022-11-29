@@ -27,7 +27,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="883" alt="image" src="https://user-images.githubusercontent.com/110877253/204224020-1b5d9761-2d18-46be-a0bb-70bcb5578d28.png">
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/110877253/204672498-b2e924be-6f63-404e-97f2-2088f9484545.png">
 
 </p>
 </details>
@@ -36,7 +36,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="882" alt="image" src="https://user-images.githubusercontent.com/110877253/204224541-f62ca332-91a4-48d8-9d54-c8af127f503a.png">
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/110877253/204672551-098f418e-42fd-4b36-b430-89f99e750296.png">
 
 </p>
 </details>
