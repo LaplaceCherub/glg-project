@@ -20,7 +20,7 @@ from gensim import models
 import re
 import os
 import sys
-ROOT_DIR = os.path.dirname(__file__) #os.path.realpath(os.path.join(sys.path[0], '..'))
+ROOT_DIR = os.path.dirname(__file__)
 
 # NER model
 ner_df = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'))
@@ -88,7 +88,7 @@ pipeline.fit(X_train, y_train)
 pickle.dump(pipeline, open('ner_model.pkl', 'wb'))
 
 # LDA model
-ner_dataset = pd.read_csv('../../datasets/ner_dataset.csv', 
+ner_dataset = pd.read_csv(os.path.join(ROOT_DIR, '../../datasets/extended_df.csv'), 
     encoding='latin1')
 
 ner_dataset['Sentence #'] = ner_dataset['Sentence #'].str.replace('Sentence:', '')
