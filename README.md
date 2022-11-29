@@ -140,7 +140,7 @@ MIT License.
   <li>Run the Docker image using the command <code>docker run -d --rm --name container_name -p 8000:8000 image_name</code></li>
   <li>Navigate to either your local host, port 8000, or the public IP of the cloud instance, port 8000. E.g. 127.0.0.0:8000</li>
 </ol>
-<p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the case, and you need to take the steps below to remediate the issue:</p>
+<p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the problem, and you need to take the steps below to remediate the issue:</p>
 <ol>
   <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
   <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
