@@ -27,7 +27,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/110877253/204672498-b2e924be-6f63-404e-97f2-2088f9484545.png">
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130528-59c64472-93ed-4608-bbf0-7109e41cc9b4.png">
 
 </p>
 </details>
@@ -37,7 +37,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 
 
-<img width="953" alt="image" src="https://user-images.githubusercontent.com/110877253/204672867-e0fba702-4103-4093-8a88-5863a12e7676.png">
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205132006-1ba0b5f4-3f71-46db-836e-c6e3e8de5a2f.png">
 
 </p>
 </details>
@@ -46,7 +46,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
   
-<img width="898" alt="image" src="https://user-images.githubusercontent.com/110877253/204224828-08ba6492-71c0-4862-a877-74cec80ffb34.png">
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130817-c160aefb-5dc4-406f-a3d0-0de9ab6a02cf.png">
   
 </p>
 </details>
@@ -55,9 +55,25 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="880" alt="image" src="https://user-images.githubusercontent.com/110877253/204225162-fcec11aa-0059-4674-b18b-a749cf36cad4.png">
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130897-a6061ab2-c4d5-4f27-8c61-7619d46255e6.png">
 </p>
   
+</p>
+</details>
+
+<details><summary>Future work</summary>
+<p>
+
+- Training our NLP models on larger and more diverse datasets should yield better results especially for LDA topic modeling. For example, using this other 2.7-million news articles dataset: [All the News 2.0 - Components](https://components.one/datasets/all-the-news-2-news-articles-dataset/)
+  
+- Exploring semi-supervised clustering methods
+
+- Exploring AutoML tools (e.g., TPOT)
+
+- Adapting our models to cover non-English languages would come in handy (GLG also has offices in Europe, Asia, Japan and the Middle East)
+
+- Building a GLG topic expert(s) recommendation model with input from our NLP models would be a natural next step for this project
+
 </p>
 </details>
 
@@ -71,18 +87,6 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 - Quickly jumping into the web app (Flask), even before the NLP models were working properly, was the right thing to do (MVP mindset)
 
 - Seeing a live, working, deployed model that addresses a real business problem is priceless 
-
-</p>
-</details>
-
-<details><summary>Future work</summary>
-<p>
-
-- Training our NLP models on larger and more diverse datasets should yield better results. For example, using this other 2.7-million news articles dataset: [All the News 2.0 - Components](https://components.one/datasets/all-the-news-2-news-articles-dataset/)
-
-- Adapting our models to cover non-English languages would come in handy (GLG also has offices in Europe, Asia, Japan and the Middle East)
-
-- Building a GLG topic expert(s) recommendation model with input from our NLP models would be a natural next step for this project
 
 </p>
 </details>
