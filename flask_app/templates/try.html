@@ -14,75 +14,86 @@ Enter Text to Get Matched!
   </div>
 </form>
 
+
 {% if requested %}
-<div>
+<div class="container">
     <div class="entered-text">
-        <div>
+        <div class="entered-text-title">
             <h3>
-                The text entered is:
+                Your Text: 
             </h3>
         </div>
         
+        <div class="entered-text-contents">
+            <p>{{ original_sentence }}</p> 
+        </div>
+    </div>
+    <br>
+    <hr>
+</div>
+
+
+<div class="container model-output">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="model-title">
+            <p id="ner">Named Entities Identified</p>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="text_result" id="ner_output">
+            <p>{{ ner_text }}</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container model-output">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="model-title">
+            <p id="knn">Other Similar Requests</p>
+        </div>
+      </div>
+      <div class="col-md-7">
         <div>
-            <p class="text_result">{{ original_sentence }}</p> 
+            <ul class="test_result list-group">
+                {% for text in nearest_text %}
+                <li class="list-group-item">
+                  <p class="text_result"> {{ text }} </p>
+                </li>
+                {% endfor %}
+              </ul>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 
-
-<div>
-    <div>
-        <h3 class="text_result">
-            The entities from the text are:
-          </h3>
-    </div>
-    
-    <div>
-        <p class="text_result">{{ ner_text }}</p>
-        
+<div class="container model-output">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="model-title">
+            <p id="lda">Possibly Related Topics</p>
         </div>
-</div>
-
-
-<div>
-    <div>
-        <h3 class="text_result">
-            The text may be related to the following topics:
-          </h3>
-    </div>
-    
-    <div>
-        <ul class="list-group">
-            {% for topic_num, topic_per in topics %}
-            <li>
-              <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
-            </li>
-            {% endfor %}
-          </ul>
+      </div>
+      <div class="col-md-7">
+        <div>
+            <ul class="list-group">
+                {% for topic_num, topic_per in topics %}
+                <li class="list-group-item">
+                  <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-</div>
-
-<div>
-    <div>
-        <h3 class="text_result">
-            The text is close to the following texts:
-          </h3>
+      </div>
     </div>
-    
-    <div>
-       
+  </div>
 
-<ul class="list-group">
-    {% for text in nearest_text %}
-    <li class="list-group-item">
-      <p class="text_result"> {{ text }} </p>
-    </li>
-    {% endfor %}
-  </ul>
   
-        </div>
-</div>
 
+
+</div>
 
 {% endif %}
 
