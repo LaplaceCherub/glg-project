@@ -2,55 +2,55 @@
 {%block title%}Try It Out{%endblock%}
 
 {%block header%}
-    Enter Text to Get Matched!
+Enter Text to Get Matched!
 {%endblock%}
 
 {%block content%}
 
 <form action="{{ url_for('try_out')}}" method="post">
-    <div class="form-outline">
-        <textarea class="form-control" id="textArea" rows="4" name="text" required></textarea>
-        <button type="submit" class="btn btn-dark">Let's Connect You!</button>
-    </div>
+  <div class="form-outline">
+    <textarea class="form-control" id="textArea" rows="4" name="text" required></textarea>
+    <button type="submit" class="btn btn-dark">Let's Connect You!</button>
+  </div>
 </form>
 
 {% if requested %}
-    <h3 class="text_result">
-        The text entered is:
-    </h3>
+<h3 class="text_result">
+  The text entered is:
+</h3>
 
-    <p class="text_result">{{ original_sentence }}</p>
-    
-    <h3 class="text_result">
-        The entities from the text are: 
-    </h3>
+<p class="text_result">{{ original_sentence }}</p>
 
-    <p class="text_result">{{ ner_text }}</p>
+<h3 class="text_result">
+  The entities from the text are:
+</h3>
 
-    <h3 class="text_result">
-        The text may be related to the following topics: 
-    </h3>
+<p class="text_result">{{ ner_text }}</p>
 
-    <ul>
-        {% for topic_num, topic_per in topics %}
-        <li> 
-            <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
-        </li>
-        {% endfor %}
-    </ul>
+<h3 class="text_result">
+  The text may be related to the following topics:
+</h3>
 
-    <h3 class="text_result">
-        The text is close to the following texts: 
-    </h3>
+<ul>
+  {% for topic_num, topic_per in topics %}
+  <li>
+    <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
+  </li>
+  {% endfor %}
+</ul>
 
-    <ul>
-        {% for text in nearest_text %}
-        <li> 
-            <p class="text_result"> {{ text }} </p>
-        </li>
-        {% endfor %}
-    </ul>
-    
+<h3 class="text_result">
+  The text is close to the following texts:
+</h3>
+
+<ul>
+  {% for text in nearest_text %}
+  <li>
+    <p class="text_result"> {{ text }} </p>
+  </li>
+  {% endfor %}
+</ul>
+
 {% endif %}
 
 {%endblock%}
