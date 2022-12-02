@@ -7,10 +7,14 @@ h1 {
     font-weight: 400;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .btn {
     margin-top: 36px;
     margin-bottom: 45px;
-    background-color: #AB47BC;
+    background-color: #60a7ff;
     border: none;
     color: #fff
 }
@@ -23,6 +27,36 @@ h1 {
 }
 
 
+/*navbar dropdown-menu*/
+.navbar {
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-nav li {
+    padding-left: 1rem;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link:active {
+    color: black;
+}
+
+
+#fb_logo {
+    max-width: 50px;
+    max-height: auto;
+}
+
+#glg_logo {
+    max-width: 65px;
+    max-height: auto;
+}
+
 /*home*/
 .home-page-text {
     margin-left: 50px;
@@ -30,7 +64,6 @@ h1 {
 }
 
 /*team*/
-
 .title {
     font-size: 20px;
     font-weight: 400;
@@ -60,12 +93,17 @@ h1 {
     bottom: 40px;
 }
 
-
-
 .header {
     padding-top: 40px
 }
 
+/*Try out*/
+.result-content {
+    border-radius: 15px;
+    border: solid rgb(240, 240, 240);
+    margin: 15px auto 30px 50px;
+
+}
 
 /*Cody*/
 .page-title {
@@ -76,11 +114,6 @@ h1 {
     padding-left: 15px;
 }
 
-.team_image {
-    max-width: 360px;
-    padding-bottom: 10px;
-}
-
 .team_page_name {
     font-size: 2em;
     font-weight: bold;
@@ -88,11 +121,6 @@ h1 {
 
 .form-outline {
     padding: 50px;
-}
-
-
-.team_bio {
-    text-align: left;
 }
 
 .text_result {
@@ -109,36 +137,7 @@ h1 {
 }
 
 
-/*navbar dropdown-menu*/
 
-.navbar {
-    letter-spacing: .05rem;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.navbar-nav li {
-    padding-left: 1rem;
-}
-
-.nav-link:hover {
-    color: black;
-}
-
-.nav-link:active {
-    color: black;
-}
-
-
-#fb_logo {
-    max-width: 50px;
-    max-height: auto;
-}
-
-#glg_logo {
-    max-width: 65px;
-    max-height: auto;
-}
 
 
 
