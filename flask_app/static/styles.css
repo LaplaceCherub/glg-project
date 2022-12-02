@@ -1,18 +1,19 @@
-#glg_logo {
-    max-width: 50px;
-    max-height: auto;
+
+body {
+    padding-bottom: 100px;
 }
 
-#global_header {
-    padding-left: 15px;
+
+h1 {
+    font-weight: 400;
 }
 
+
+.page-title {
+    margin: 50px auto 20px 20px;
+}
 .page_header {
     padding-left: 15px;
-}
-
-#home_text {
-    padding: 15px;
 }
 
 .team_image {
@@ -29,9 +30,7 @@
     padding: 50px;
 }
 
-body {
-    padding-bottom: 100px;
-}
+
 
 .btn {
     margin-top: 10px;
@@ -44,3 +43,50 @@ body {
 .text_result {
     padding-left: 15px;
 }
+
+#home_text {
+    padding: 15px;
+}
+
+
+#global_header {
+    padding-left: 15px;
+}
+
+
+/*navbar dropdown-menu*/
+
+.navbar {
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-nav li {
+    padding-left: 1rem;
+}
+
+.nav-link:hover {
+    color: #009DAE;
+}
+
+.nav-link:active {
+    color: #009DAE;
+}
+
+
+#fb_logo {
+    max-width: 50px;
+    max-height: auto;
+}
+
+#glg_logo {
+    max-width: 65px;
+    max-height: auto;
+}
+
+
+
+
+
+
