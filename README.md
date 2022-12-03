@@ -16,7 +16,7 @@ Ying, Cody and Cris are students of [FourthBrain's](https://fourthbrain.ai/) [Ma
 
 [GLG](https://glginsights.com/)'s business largely revolves around matching clients, requesting insights on a specific topic, with an expert on that topic from their large database so that they can meet by phone, video or in person. Visually: 
 
-<img width="977" alt="image" src="https://user-images.githubusercontent.com/110877253/193379391-7bc81c97-fa89-4553-92d3-d62eaab639e1.png">
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png">
 
 Since [GLG](https://glginsights.com/) receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
 
@@ -27,7 +27,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130528-59c64472-93ed-4608-bbf0-7109e41cc9b4.png">
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205419962-7316d77d-e5e6-483d-b20c-3716ce63db3a.png">
 
 </p>
 </details>
@@ -37,7 +37,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 
 
-<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205132006-1ba0b5f4-3f71-46db-836e-c6e3e8de5a2f.png">
+<img width="769" alt="image" src="https://user-images.githubusercontent.com/110877253/205420317-415e5226-3067-4b37-83e1-25c0a22cca56.png">
 
 </p>
 </details>
@@ -46,7 +46,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
   
-<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130817-c160aefb-5dc4-406f-a3d0-0de9ab6a02cf.png">
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420437-3ef70b28-cc31-4889-b4a6-04d010ce0741.png">
   
 </p>
 </details>
@@ -54,9 +54,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>MLE Stack</summary>
 <p>
 <p>
-
-<img width="938" alt="image" src="https://user-images.githubusercontent.com/110877253/205130897-a6061ab2-c4d5-4f27-8c61-7619d46255e6.png">
-</p>
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420458-fe94240c-7393-42d0-b976-29787fa5640d.png">
   
 </p>
 </details>
@@ -64,29 +62,14 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Future work</summary>
 <p>
 
-- Training our NLP models on larger and more diverse datasets should yield better results especially for LDA topic modeling. For example, using this other 2.7-million news articles dataset: [All the News 2.0 - Components](https://components.one/datasets/all-the-news-2-news-articles-dataset/)
-  
-- Exploring semi-supervised clustering methods
+1. Improve the Topic Modeling: 
+- Training an LDA model on a more diverse [dataset](https://components.one/datasets/all-the-news-2-news-articles-dataset/)
+- Using semi-supervised learning method (SentenceTransformers + Label Propagation)
 
-- Exploring AutoML tools (e.g., TPOT)
-
-- Adapting our models to cover non-English languages would come in handy (GLG also has offices in Europe, Asia, Japan and the Middle East)
-
-- Building a GLG topic expert(s) recommendation model with input from our NLP models would be a natural next step for this project
-
-</p>
-</details>
-
-<details><summary>Conclusions</summary>
-<p>
-
-- Natural Language Processing (NLP) models work!
-
-- Any NLP model is only as good as the data it was trained on
-
-- Quickly jumping into the web app (Flask), even before the NLP models were working properly, was the right thing to do (MVP mindset)
-
-- Seeing a live, working, deployed model that addresses a real business problem is priceless 
+2. Expand the scope of the project: 
+- Building the expert(s) recommendation model 
+- Adapting our models to cover non-English languages 
+  (GLG also has offices in Europe, Asia, and the Middle East)
 
 </p>
 </details>
@@ -119,7 +102,7 @@ This app can be (relatively, see note below) easily deployed using Docker. The i
 
 MIT License
 
-Copyright (c) 2022 Cody
+Copyright (c) 2022 Cody McCormack, Cris Fortes and Ying Hu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
