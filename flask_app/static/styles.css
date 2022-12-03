@@ -26,7 +26,7 @@ a:link {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    color: #fff
+    color: #fff;
 }
 
 
@@ -90,7 +90,7 @@ a:link {
 .card {
     border-radius: 15px;
     margin-left: 30px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 
 .header {
@@ -163,6 +163,22 @@ a:link {
 
 #global_header {
     padding-left: 15px;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.index_img {
+    margin-left: 20px; 
+    margin-top:30px; 
+    margin-bottom:30px; 
+    width: 520px;
+}
+
+.img_col {
+    margin-right: none;
+    padding-right: none;
 }
 
 
