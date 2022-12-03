@@ -52,6 +52,27 @@ Enter Text to Get Matched!
     <div class="row">
       <div class="col-md-3">
         <div class="model-title">
+            <p id="lda">Possibly Related Topics</p>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div>
+            <ul class="list-group">
+                {% for topic_num, topic_per in topics %}
+                <li class="list-group-item">
+                  <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="container model-output">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="model-title">
             <p id="knn">Other Similar Requests</p>
         </div>
       </div>
@@ -69,26 +90,7 @@ Enter Text to Get Matched!
     </div>
   </div>
 
-<div class="container model-output">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="model-title">
-            <p id="lda">Possibly Related Topics</p>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div>
-            <ul class="list-group">
-                {% for topic_num, topic_per in topics %}
-                <li class="list-group-item">
-                  <p class="text_result"> {{ topic_per }} of Topic {{ topic_num + 1 }}: {{topics_dict[topic_num]}} </p>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   
 
