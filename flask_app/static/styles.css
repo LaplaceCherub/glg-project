@@ -170,18 +170,23 @@ a:link {
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .index_img {
     margin-left: 20px; 
     margin-top:30px; 
     margin-bottom:30px; 
+    margin-right: 20px;
     width: 520px;
 }
 
-.index_row {
-    margin-right: none;
+#index_row {
+    margin-right: 0px;
+}
+
+footer {
+    background-color: rgba(109, 109, 109, 0.033);
 }
 
 
