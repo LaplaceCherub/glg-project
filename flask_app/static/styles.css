@@ -169,6 +169,10 @@ a:link {
     font-size: 1rem;
 }
 
+footer {
+    margin-top: 10px;
+}
+
 .index_img {
     margin-left: 20px; 
     margin-top:30px; 
@@ -176,9 +180,8 @@ a:link {
     width: 520px;
 }
 
-.img_col {
+.index_row {
     margin-right: none;
-    padding-right: none;
 }
 
 
