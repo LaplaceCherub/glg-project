@@ -90,12 +90,9 @@ This app can be (relatively, see note below) easily deployed using Docker. The i
 </ol>
 <p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the problem, and you need to take the steps below to remediate the issue:</p>
 <ol>
-  <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
-  <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
-  <li>Install spaCy's English language model using the command <code>python -m spacy download en_core_web_sm</code></li>
-  <li>Run the model_maker.py file with the command <code>python model_maker.py</code></li>
+  <li>Open Dockerfile, and remove the <code>#</code> from the 3rd line from the bottom, so that it reads <code>RUN python model_maker.py</code></li>
 </ol>
-<p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
+<p>Then you can pick up from the step <code>docker build -t image_name .</code> above.</p>
 </details>
 
 <details><summary>License</summary>
