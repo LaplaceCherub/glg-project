@@ -92,6 +92,7 @@ This app can be (relatively, see note below) easily deployed using Docker. The i
 <ol>
   <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
   <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
+  <li>Install spaCy's English language model using the command <code>python -m spacy download en_core_web_sm</code></li>
   <li>Run the model_maker.py file with the command <code>python model_maker.py</code></li>
 </ol>
 <p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
