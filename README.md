@@ -35,7 +35,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Data + Model</summary>
 <p>
 <p>
-<img width="769" alt="image" src="https://user-images.githubusercontent.com/110877253/205420317-415e5226-3067-4b37-83e1-25c0a22cca56.png">
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/110877253/205776235-a91ede23-89a8-4293-94b0-6465af55b73a.png">
 </p>
 <p></p>
 </details>
@@ -50,7 +50,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>MLE Stack</summary>
 <p>
 <p>
-<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420458-fe94240c-7393-42d0-b976-29787fa5640d.png">
+<img width="678" alt="image" src="https://user-images.githubusercontent.com/110877253/205776439-14bfbb13-f3c4-4d19-b4d0-2d80be5153ab.png">
   
 </p>
 </details>
