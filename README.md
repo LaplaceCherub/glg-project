@@ -37,7 +37,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 
 
-<img width="769" alt="image" src="https://user-images.githubusercontent.com/110877253/205420317-415e5226-3067-4b37-83e1-25c0a22cca56.png">
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/110877253/205776235-a91ede23-89a8-4293-94b0-6465af55b73a.png">
 
 </p>
 </details>
@@ -46,7 +46,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
   
-<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420437-3ef70b28-cc31-4889-b4a6-04d010ce0741.png">
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/110877253/205776319-9cd990d3-9450-4e8d-9a78-36030da41338.png">
   
 </p>
 </details>
@@ -54,7 +54,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>MLE Stack</summary>
 <p>
 <p>
-<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420458-fe94240c-7393-42d0-b976-29787fa5640d.png">
+<img width="678" alt="image" src="https://user-images.githubusercontent.com/110877253/205776439-14bfbb13-f3c4-4d19-b4d0-2d80be5153ab.png">
   
 </p>
 </details>
