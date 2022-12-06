@@ -77,7 +77,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Deployment Instructions</summary>
 <p>
 
-This app can be (relatively, see note below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
+This app can be (relatively, see note 1 below) easily deployed using Docker. The instructions to deploy in the cloud or locally are the same.</p>
 <ol>
   <li>Clone this repository, either on a local machine or in a cloud instance</li>
   <li>Navigate to the flask_app folder</li>
@@ -88,14 +88,12 @@ This app can be (relatively, see note below) easily deployed using Docker. The i
   <li>Run the Docker image using the command <code>docker run -d --rm --name container_name -p 8000:8000 image_name</code></li>
   <li>Navigate to either your local host, port 8000, or the public IP of the cloud instance, port 8000. E.g. 127.0.0.0:8000</li>
 </ol>
-<p><strong>NOTE:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the problem, and you need to take the steps below to remediate the issue:</p>
+<p><strong>NOTE 1:</strong> This application depends on prebuilt machine learning models that were saved using <a href="https://docs.python.org/3/library/pickle.html">Pickle</a> files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that this was often not the case. If the app crashes when you try to run it, this is most likely the problem, and you need to take the steps below to remediate the issue:</p>
 <ol>
-  <li><a href="https://www.python.org/downloads/">Install Python</a> in the environment you're using, if you haven't already</li>
-  <li>Install the requirements.txt file in the flask_app folder using the command <code>pip install -r requirements.txt</code> in the terminal</li>
-  <li>Install spaCy's English language model using the command <code>python -m spacy download en_core_web_sm</code></li>
-  <li>Run the model_maker.py file with the command <code>python model_maker.py</code></li>
+  <li>Open Dockerfile, and remove the <code>#</code> from the 3rd line from the bottom, so that it reads <code>RUN python model_maker.py</code></li>
 </ol>
-<p>This will create new Pickle files in your environment. You can then follow the original steps above.</p>
+<p>Then you can pick up from the step <code>docker build -t image_name .</code> above.</p>
+<p><strong>NOTE 2:</strong> this will slow down the Docker image build considerably, and might take up to 20 minutes, depending on your machine.</p>
 </details>
 
 <details><summary>License</summary>
