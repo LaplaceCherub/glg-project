@@ -34,21 +34,17 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
   
 <details><summary>Data + Model</summary>
 <p>
-<p>
-
-
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/110877253/205420317-415e5226-3067-4b37-83e1-25c0a22cca56.png">
-
 </p>
+<p></p>
 </details>
   
 <details><summary>Demo</summary>  
 <p>
 <p>
-  
-<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205420437-3ef70b28-cc31-4889-b4a6-04d010ce0741.png">
-  
+<img width="771" alt="image" src="readme_assets/demo.gif">
 </p>
+<p>To see a longer demo, <a href="readme_assets/demo.mp4">click here.</a></p>
 </details>
   
 <details><summary>MLE Stack</summary>
