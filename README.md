@@ -43,9 +43,8 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Demo</summary>  
 <p>
 <p>
-<img width="771" alt="image" src="readme_assets/demo.gif">
+<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/GMSpp7FQSZdnXPHyfS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/GMSpp7FQSZdnXPHyfS"></a></p>
 </p>
-<p>To see a longer demo, <a href="https://drive.google.com/drive/folders/1zy0fXwtqnw6QQG7Sihmu8siBqf9u8AmL">click here.</a></p>
 </details>
   
 <details><summary>MLE Stack</summary>
