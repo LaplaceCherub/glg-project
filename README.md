@@ -43,7 +43,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Demo</summary>  
 <p>
 <p>
-<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/GMSpp7FQSZdnXPHyfS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/GMSpp7FQSZdnXPHyfS"></a></p>
+<img src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
 </p>
 </details>
   
