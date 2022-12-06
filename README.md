@@ -43,7 +43,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Demo</summary>  
 <p>
 <p>
-<img src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
+<img width="769" alt="image" src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
 </p>
 </details>
   
