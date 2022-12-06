@@ -35,19 +35,15 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Data + Model</summary>
 <p>
 <p>
-
-
 <img width="683" alt="image" src="https://user-images.githubusercontent.com/110877253/205776235-a91ede23-89a8-4293-94b0-6465af55b73a.png">
-
 </p>
+<p></p>
 </details>
   
 <details><summary>Demo</summary>  
 <p>
 <p>
-  
-<img width="684" alt="image" src="https://user-images.githubusercontent.com/110877253/205776319-9cd990d3-9450-4e8d-9a78-36030da41338.png">
-  
+<img width="769" alt="image" src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
 </p>
 </details>
   
