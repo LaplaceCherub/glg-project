@@ -43,6 +43,9 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 <img width="771" alt="image" src="readme_assets/demo.gif">
+<video>
+  <source src ="readme_assets/demo.mp4">
+</video>
 </p>
 <p>To see a longer demo, <a href="readme_assets/demo.mp4">click here.</a></p>
 </details>
