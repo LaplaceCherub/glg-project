@@ -18,7 +18,7 @@ Ying, Cody and Cris are students of [FourthBrain's](https://fourthbrain.ai/) [Ma
 
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png">
 
-Since [GLG](https://glginsights.com/) receives 100s of these requests per day, how can they leverage machine learning to semi-automate the matching process at scale? 
+Since they receive hundreds of these requests per day, we wanted to explore how machine learning could help automate and scale the process. 
 
 </p>
 </details>
@@ -27,7 +27,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <p>
 <p>
 
-<img width="771" alt="image" src="https://user-images.githubusercontent.com/110877253/205419962-7316d77d-e5e6-483d-b20c-3716ce63db3a.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/110877253/206084965-2f0e34b7-04be-46f4-879d-5620393f27f8.png">
 
 </p>
 </details>
@@ -35,7 +35,7 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <details><summary>Data + Model</summary>
 <p>
 <p>
-<img width="683" alt="image" src="https://user-images.githubusercontent.com/110877253/205776235-a91ede23-89a8-4293-94b0-6465af55b73a.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/110877253/206085500-43a33b64-dd34-4b34-88c4-d19f8a44d259.png">
 </p>
 <p></p>
 </details>
@@ -46,11 +46,19 @@ Since [GLG](https://glginsights.com/) receives 100s of these requests per day, h
 <img width="769" alt="image" src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
 </p>
 </details>
+
+<details><summary>Results</summary>
+<p>
+<p>
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/110877253/206085155-9523f20d-d83a-4e48-add1-c32d772388c2.png">
+  
+</p>
+</details>
   
 <details><summary>MLE Stack</summary>
 <p>
 <p>
-<img width="678" alt="image" src="https://user-images.githubusercontent.com/110877253/205776439-14bfbb13-f3c4-4d19-b4d0-2d80be5153ab.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/110877253/206085235-dd4101f4-9e32-417f-b98d-81f876216ecc.png">
   
 </p>
 </details>
