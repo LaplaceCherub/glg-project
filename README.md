@@ -3,6 +3,11 @@
 ## A match made in machine learning heaven: 🙋 ➡️ 🤓 linking every request to the best expert
 ### 👏  By [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](https://www.linkedin.com/in/codymccormack/) and [Cris Fortes](https://www.linkedin.com/in/crisfortes/)
 
+<details><summary>Presentation</summary>
+<p>
+To see a recording of our GLG project presentation, check out our <a href="https://youtu.be/roA-0QMAdJQ">video here</a>.
+</p>
+
 <details><summary>Context</summary>
 <p>
 
