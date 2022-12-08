@@ -3,6 +3,16 @@
 ## A match made in machine learning heaven: 🙋 ➡️ 🤓 linking every request to the best expert
 ### 👏  By [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](https://www.linkedin.com/in/codymccormack/) and [Cris Fortes](https://www.linkedin.com/in/crisfortes/)
 
+<details><summary>Presentation</summary>
+<p>
+
+You can see a recording of our presentation here: <a href="https://youtu.be/roA-0QMAdJQ">GLG Project Presentation</a>.
+</p>
+
+<p>
+You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf">GLG Project Slide Deck</a>.
+</p>
+</details>
 <details><summary>Context</summary>
 <p>
 
@@ -44,6 +54,10 @@ Since they receive hundreds of these requests per day, we wanted to explore how 
 <p>
 <p>
 <img width="769" alt="image" src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
+</p>
+
+<p>
+You can watch an HD product demo here: <a href="https://youtu.be/H9BZQdG0qCA">GLG Project Demo</a>.
 </p>
 </details>
 
