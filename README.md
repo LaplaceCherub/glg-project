@@ -11,7 +11,7 @@ You can see a recording of our presentation here: <a href="https://youtu.be/roA-
 <p>
 You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf">GLG Project Slide Deck</a>.
 </p>
-
+</details>
 <details><summary>Context</summary>
 <p>
 
