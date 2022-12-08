@@ -8,6 +8,10 @@
 To see a recording of our GLG project presentation, check out our <a href="https://youtu.be/roA-0QMAdJQ">video here</a>.
 </p>
 
+<p>
+You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf">GLG Project Slide Deck</a>
+</p>
+
 <details><summary>Context</summary>
 <p>
 
