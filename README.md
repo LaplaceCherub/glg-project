@@ -6,11 +6,11 @@
 <details><summary>Presentation</summary>
 <p>
 
-You can see a recording of our presentation here: <a href="https://youtu.be/roA-0QMAdJQ">GLG Project Presentation</a>.
+You can see a recording of our presentation here: <a href="https://youtu.be/roA-0QMAdJQ" target="_blank">GLG Project Presentation</a>.
 </p>
 
 <p>
-You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf">GLG Project Slide Deck</a>.
+You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf" target="_blank">GLG Project Slide Deck</a>.
 </p>
 </details>
 <details><summary>Context</summary>
