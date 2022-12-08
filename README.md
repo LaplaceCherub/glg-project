@@ -54,6 +54,10 @@ Since they receive hundreds of these requests per day, we wanted to explore how 
 <p>
 <img width="769" alt="image" src="https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp">
 </p>
+
+<p>
+You can watch an HD product demo here: <a href="https://youtu.be/H9BZQdG0qCA">GLG Project Demo</a>.
+</p>
 </details>
 
 <details><summary>Results</summary>
