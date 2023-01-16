@@ -6,7 +6,7 @@
 <details><summary>Presentation</summary>
 <p>
 
-You can see a recording of our presentation here: <a href="https://youtu.be/roA-0QMAdJQ">GLG Project Presentation</a>.
+You can see a recording of our presentation here: <a href="https://youtu.be/y2BTKiYVVYA">GLG Project Presentation</a>.
 </p>
 
 <p>
