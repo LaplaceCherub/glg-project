@@ -1,8 +1,7 @@
 # 🚀 [GLG](https://glginsights.com/) project
 
 ## A match made in machine learning heaven: 🙋 ➡️ 🤓 linking every request to the best expert
-### 👏  By [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](https://www.linkedin.com/in/codymccormack/) and [Cris Fortes](https://www.linkedin.com/in/crisfortes/)
-
+### 👏  By [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), and [Cody McCormack](https://www.linkedin.com/in/codymccormack/) 
 <details><summary>Presentation</summary>
 <p>
 
@@ -16,7 +15,7 @@ You can see our slide deck here: <a href="https://github.com/LaplaceCherub/glg-p
 <details><summary>Context</summary>
 <p>
 
-Ying, Cody and Cris are students of [FourthBrain's](https://fourthbrain.ai/) [Machine Learning Engineer course](https://fourthbrain.ai/courses/machine-learning-engineer/), cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the [GLG](https://glginsights.com/) project.
+Ying, and Cody are students of [FourthBrain's](https://fourthbrain.ai/) [Machine Learning Engineer course](https://fourthbrain.ai/courses/machine-learning-engineer/), cohort 9 (August-December 2022). This repository (repo) is part of our capstone project, a required deliverable from our curriculum. For that we've chosen to work on the [GLG](https://glginsights.com/) project.
 
 </p>
 </details>
